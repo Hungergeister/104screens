@@ -1,7 +1,7 @@
 import streamlit as st
 import openai
 import os
-client = openai.OpenAI(api_key=os.getenv["OPEN_AI_KEY"]) 
+client = openai.OpenAI(api_key=os.getenv["OPENAI_API_KEY"]) 
 SYSTEM_PROMPT = """
 Проскорь кандидата, насколько он подходит для данной вакансии.
 
